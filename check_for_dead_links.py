@@ -6,7 +6,7 @@ from urllib.request import Request
 from html.parser import HTMLParser
 from collections import deque
 
-# This wonderful script comes courtesy of Andrew Healey (full script available [here](https://github.com/healeycodes/Broken-Link-Crawler/blob/master/deadseeker.py))
+# This wonderful script comes courtesy of Andrew Healey (full script available at https://github.com/healeycodes/Broken-Link-Crawler/blob/master/deadseeker.py)
 
 search_attrs = set(['href', 'src'])
 agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
