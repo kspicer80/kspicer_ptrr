@@ -524,12 +524,3 @@ pre.sourceCode.python .comment {
     color: #75715e;
     font-style: italic;
 }
-
-div#table-of-contents {
-    font-size: 14px !important;
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
-    margin-right: 200px;
-    padding-right: 0;
-    vertical-align: baseline;
-}
