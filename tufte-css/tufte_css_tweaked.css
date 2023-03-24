@@ -525,7 +525,7 @@ pre.sourceCode.python .comment {
     font-style: italic;
 }
 
-div.table-of-contents {
+div#table-of-contents {
     font-size: 14px;
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
