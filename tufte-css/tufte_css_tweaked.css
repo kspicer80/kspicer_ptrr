@@ -526,7 +526,7 @@ pre.sourceCode.python .comment {
 }
 
 div#table-of-contents {
-    font-size: 14px;
+    font-size: 14px !important;
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
     margin-right: 200px;
