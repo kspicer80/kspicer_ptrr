@@ -524,3 +524,13 @@ pre.sourceCode.python .comment {
     color: #75715e;
     font-style: italic;
 }
+
+header p.title {
+    font-size: 36px;
+    text-align: center;
+}
+
+header p.subtitle {
+    font-size: 25px;
+    text-align: center;
+}
