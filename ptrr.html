@@ -6223,19 +6223,7 @@ a nice description of what has been most important to me over the past
 few years.<label for="mn_6" class="margin-toggle">&#8853;</label>
 <input type="checkbox" id="mn_6" class="margin-toggle"/>
 <span class="marginnote"><a href="#table-of-contents">Back to Table of Contents</a></span></p>
-<script>
-    var toc = document.getElementById('table-of-contents');
-    var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-
-    headings.forEach(function(heading) {
-      var tocLink = document.createElement('a');
-      tocLink.textContent = heading.textContent;
-      tocLink.setAttribute('href', '#' + heading.id);
-      toc.appendChild(tocLink);
-
-      toc.appendChild(document.createElement('br')); // Add line break
-    });
-</script>
+<script type="text/javascript" src="js/table_of_contents_script.js"></script>
 <br>
 <br>
 <br>
