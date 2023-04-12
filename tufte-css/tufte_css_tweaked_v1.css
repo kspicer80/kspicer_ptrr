@@ -289,7 +289,7 @@ img {
 .marginnote {
     float: right;
     clear: right;
-    margin-right: -30%;
+    margin-right: -33%;
     width: 50%;
     margin-top: 0.3rem;
     margin-bottom: 0;
@@ -327,9 +327,9 @@ img {
 
 blockquote p .sidenote,
 blockquote p .marginnote {
-    margin-right: -35.25%;
+    margin-right: -38.75%;
     text-align: left;
-    max-width: 300px;
+    max-width: 275px;
     width: 50%;
     position: relative;
     word-wrap: break-word;
