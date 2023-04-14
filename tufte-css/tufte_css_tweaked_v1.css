@@ -46,7 +46,8 @@ html {
 
 body {
     width: 87.5%;
-    margin-left: 275px;
+    margin-left: 240px;
+    padding: 10px;
     margin-right: 20px;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
@@ -538,7 +539,7 @@ header p.subtitle {
 div#toc-container {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 10px;
     padding-left: 10px;
     width: 200px;
     word-wrap: break-word;
