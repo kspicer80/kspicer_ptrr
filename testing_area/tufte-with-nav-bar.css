@@ -46,7 +46,7 @@ html {
 
 body {
     width: 87.5%;
-    margin-left: 200px;
+    margin-left: 195px;
     padding: 10px;
     margin-right: 20px;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -554,7 +554,7 @@ nav {
     position: fixed;
     z-index: 5;
     top: 0;
-    left: -18em;
+    left: -19em;
     display: flex;
     align-items: center;
     height: 100%;
@@ -564,11 +564,13 @@ nav {
     line-height: 2.2;
     color: white;
     width: 10%;
+    transition: left 1.5s linear;
+    font-family: "et-book", serif;
 }
 
 nav:hover {
     left: 0;
-    transition: left 1s linear
+    transition: left 1s linear .5s;
 }
 
 nav .hover-content {
@@ -577,10 +579,13 @@ nav .hover-content {
 
 .fa-regular.fa-circle-right {
     color: white;
+    font-size: 35px;
 }
 
 nav ol {
+    font-family: "et-book", serif;
     color: white;
+    font-size: 15px;
   }
 
 nav a {
@@ -594,13 +599,22 @@ nav a.active {
 }
 */
 nav h2 {
-    font-family: "Cormorant Garamond", serif;
+    font-family: "et-book", serif;
     font-size: 2.6em;
     color: white;
     padding-left: 25px;
     font-size: 30px;
+    margin-top: 25px;
 }
 
 nav h3 {
     padding-bottom: 1.1em;
-  }
+}
+
+nav .hover-content {
+    margin-right: 3em;
+}
+
+#main-content {
+    margin-left: 0;
+}
