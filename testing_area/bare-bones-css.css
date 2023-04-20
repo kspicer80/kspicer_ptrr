@@ -1,0 +1,74 @@
+body {
+    padding-left: 55px;
+}
+
+nav {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: -19em;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 8px;
+    line-height: 2.2;
+    color: white;
+    width: 10%;
+    transition: left 1.5s linear;
+    font-family: "et-book", serif;
+    background: red;
+}
+
+nav:hover {
+    left: 0;
+    transition: left 1s linear .5s;
+    margin-right: 3em;
+}
+
+nav:hover + #main-content {
+    margin-left: 160px;
+    transition: margin-left 1s linear .5s;
+}
+
+/*
+nav .hover-content {
+    margin-right: 3em;
+    left: 0;
+    transition: left 1s linear .5s;
+}
+*/
+.fa-regular.fa-circle-right {
+    color: white;
+    font-size: 35px;
+}
+
+nav ol {
+    font-family: "et-book", serif;
+    color: white;
+    font-size: 15px;
+  }
+
+nav a {
+    text-decoration: underline;
+    color: white;
+}
+/*
+nav a:hover,
+nav a.active {
+    color: blue;
+}
+*/
+nav h2 {
+    font-family: "et-book", serif;
+    font-size: 2.6em;
+    color: white;
+    padding-left: 25px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+nav h3 {
+    padding-bottom: 1.1em;
+}
