@@ -1,5 +1,5 @@
 body {
-    padding-left: 55px;
+    padding-left: 60px;
 }
 
 nav {
@@ -15,7 +15,7 @@ nav {
     font-size: 8px;
     line-height: 2.2;
     color: white;
-    width: 10%;
+    width: 10.9%;
     transition: left 1.5s linear;
     font-family: "et-book", serif;
     background: red;
@@ -27,18 +27,23 @@ nav:hover {
     margin-right: 3em;
 }
 
-nav:hover + #main-content {
+nav:hover + header {
     margin-left: 160px;
     transition: margin-left 1s linear .5s;
 }
 
-/*
+nav:hover ~ #main-content {
+    position: absolute;
+    margin-left: 160px;
+    transition: margin-left 1s linear .5s;
+}
+
 nav .hover-content {
     margin-right: 3em;
     left: 0;
     transition: left 1s linear .5s;
 }
-*/
+
 .fa-regular.fa-circle-right {
     color: white;
     font-size: 35px;
