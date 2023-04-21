@@ -605,3 +605,11 @@ nav .hover-content {
     color: white;
     font-size: 35px;
 }
+
+footer {
+    text-align: center;
+    margin-left: calc((100% - 1500px) / 2);
+    max-width: 1400px;
+    width: 100%;
+    box-sizing: border-box;
+}
