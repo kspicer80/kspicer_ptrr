@@ -536,7 +536,7 @@ header p.subtitle {
     text-align: center;
 }
 
-/* Here we'll define some styling/selectors for the nav element: */
+/* Here we'll define some selectors for the nav element: */
 
 nav ol {
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -566,43 +566,42 @@ nav {
     position: fixed;
     z-index: 5;
     top: 0;
-    left: 0;
+    left: -em;
     display: flex;
     align-items: center;
     height: 100%;
+    padding-right: .5rem;
+    padding-left: .5rem;
     font-size: 8px;
     line-height: 2.2;
     color: white;
-    width: 5%;
-    padding-right: 25px;
+    width: 10.9%;
+    transition: left 1.5s linear;
     font-family: "et-book", serif;
 }
-/*
+
 nav:hover {
-    left: 100px;
+    left: 0;
     transition: left 1s linear .5s;
 }
-
-
+/*
 nav:hover + header {
     margin-left: 160px;
     transition: margin-left 1s linear .5s;
 }
-
+*/
 nav:hover ~ #main-content {
     position: absolute;
     margin-left: 160px;
     transition: margin-left 1s linear .5s;
 }
 
-
 nav .hover-content {
     left: 0;
     transition: left 1s linear .5s;
 }
-*/
+
 .fa-regular.fa-circle-right {
-    color: green;
+    color: white;
     font-size: 35px;
-    padding-left: 15px;
 }
