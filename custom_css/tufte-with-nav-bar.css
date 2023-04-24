@@ -574,15 +574,17 @@ nav {
     font-size: 8px;
     line-height: 2.2;
     color: white;
-    transition: left 1.5s linear;
+    background-color: red;
+    /*transition: left 1.5s linear;*/
     font-family: "et-book", serif;
 }
 
+/*
 nav:hover {
     left: 0;
     transition: left 1s linear .5s;
 }
-/*
+
 nav:hover + header {
     margin-left: 160px;
     transition: margin-left 1s linear .5s;
@@ -598,7 +600,7 @@ nav .hover-content {
     left: 0;
     transition: left 1s linear .5s;
 }
-*/
+
 .fa-regular.fa-circle-right {
     color: white;
     font-size: 35px;
@@ -612,3 +614,4 @@ footer {
     box-sizing: border-box;
     transition: left 1.5s linear;
 }
+*/
