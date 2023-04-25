@@ -46,14 +46,15 @@ html {
 
 body {
     width: 87.5%;
-    margin-left: 195px;
     padding: 10px;
+    margin-left: 100px;
     margin-right: 20px;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
     color: #111;
     max-width: 1400px;
     counter-reset: sidenote-counter;
+    transition: margin-left 1s 1s linear;
 }
 
 /* Adds dark mode */
@@ -561,7 +562,15 @@ nav h2 {
 nav h3 {
     padding-bottom: 1.1em;
 }
-
+nav {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-100%);
+    background-color: red;
+    height: 100%;
+    transition: left 1s 1s linear;
+}
 nav {
     position: fixed;
     left: 0;
@@ -569,48 +578,48 @@ nav {
     transform: translateY(-50%);
     background-color: red;
     height: 100%;
-    width: 50px;
-    transition: width 0.3s ease-in-out;
+    width: 60px; /* width of the icon */
+    transition: width 0.5s ease;
+}
+
+nav:hover {
+    width: 275px; /* width of the expanded nav */
+}
+
+nav .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* height of the icon */
 }
 
 nav .hover-content {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: red;
-    height: 100%;
-    width: 50px;
-    transition: width 0.3s ease-in-out;
-  }
-
-  .navbar:hover {
-    width: 150px;
-  }
-
-  .navbar li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .navbar a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
+    display: none;
     padding: 10px;
-  }
+}
 
-  .navbar a:hover {
-    background-color: #555;
-  }
+nav:hover .hover-content {
+    display: block;
+}
 
+nav:hover + body {
+    margin-left: 3000px;
+    transition: margin-left 0.25s linear;
+}
+nav:hover + #main-content {
+    margin-left: 3000px;
+    margin-left: 2500px;
+    transition: margin-left 0.25s linear;
 
+}
 
+header, #main-content {
+    transition: margin-left 0.5s linear;
+}
 
-
-
-
-
+nav:hover + header, nav:hover + #main-content {
+    margin-left: 3000px;
+}
 
 
 
@@ -639,3 +648,4 @@ nav .hover-content {
     font-size: 35px;
 }
 */
+
