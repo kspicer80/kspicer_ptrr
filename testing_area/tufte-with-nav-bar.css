@@ -564,41 +564,73 @@ nav h3 {
 
 nav {
     position: fixed;
-    z-index: 5;
-    top: 0;
-    left: -em;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding-right: .5rem;
-    padding-left: .5rem;
-    font-size: 8px;
-    line-height: 2.2;
-    color: white;
-    width: 10.9%;
-    transition: left 1.5s linear;
-    font-family: "et-book", serif;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
     background-color: red;
+    height: 100%;
+    width: 50px;
+    transition: width 0.3s ease-in-out;
 }
+
+nav .hover-content {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+    height: 100%;
+    width: 50px;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .navbar:hover {
+    width: 150px;
+  }
+
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .navbar a:hover {
+    background-color: #555;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 nav:hover {
-    left: 0;
     transition: left 1s linear .5s;
 }
 
+/*
 nav:hover + header {
     margin-left: 160px;
     transition: margin-left 1s linear .5s;
 }
 
 nav:hover ~ #main-content {
-    position: absolute;
-    margin-left: 160px;
     transition: margin-left 1s linear .5s;
 }
 
 nav .hover-content {
-    left: 0;
     transition: left 1s linear .5s;
 }
 
