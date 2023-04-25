@@ -578,18 +578,19 @@ nav {
     width: 10.9%;
     transition: left 1.5s linear;
     font-family: "et-book", serif;
+    background-color: red;
 }
-
+/*
 nav:hover {
     left: 0;
     transition: left 1s linear .5s;
 }
-/*
+
 nav:hover + header {
     margin-left: 160px;
     transition: margin-left 1s linear .5s;
 }
-*/
+
 nav:hover ~ #main-content {
     position: absolute;
     margin-left: 160px;
@@ -605,3 +606,4 @@ nav .hover-content {
     color: white;
     font-size: 35px;
 }
+*/
