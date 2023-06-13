@@ -47,7 +47,7 @@ html {
 body {
     width: 87.5%;
     margin-left: 195px;
-    padding: 10px;
+    padding-left: 50px;
     margin-right: 20px;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
@@ -577,6 +577,7 @@ nav {
     width: 10.9%;
     transition: left 1.5s linear;
     font-family: "et-book", serif;
+    padding-right: 25px;
 }
 /*
 nav:hover {
