@@ -46,7 +46,7 @@ html {
 
 body {
     width: 87.5%;
-    margin-left: 195px;
+    margin-left: 145px;
     padding-left: 50px;
     margin-right: 20px;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -180,8 +180,10 @@ blockquote {
 }
 
 blockquote p {
+    font-size: 14px;
     width: 85%;
     margin-right: 40px;
+    line-height: 1.75;
 }
 
 blockquote footer {
@@ -290,7 +292,7 @@ img {
 .marginnote {
     float: right;
     clear: right;
-    margin-right: -25.00%;
+    margin-right: -19.00%;
     width: 50%;
     margin-top: 0.3rem;
     margin-bottom: 0;
@@ -328,7 +330,7 @@ img {
 
 blockquote p .sidenote,
 blockquote p .marginnote {
-    margin-right: -30%;
+    margin-right: -23.25%;
     text-align: left;
     max-width: 200px;
     width: 50%;
@@ -570,7 +572,7 @@ nav {
     display: flex;
     align-items: center;
     height: 100%;
-    padding-right: .25rem;
+    padding-right: 5px;
     font-size: 8px;
     line-height: 2.2;
     color: white;
